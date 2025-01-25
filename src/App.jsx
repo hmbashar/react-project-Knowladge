@@ -2,14 +2,17 @@ import { useState } from 'react'
 import './App.css'
 import Header from './components/Header/Header'
 import Blogs from './components/Blogs/Blogs'
+import Bookmarks from './components/Bookmarks/Bookmarks'
 
 function App() {
 
   return (
     <>
       <Header></Header>
-      <Blogs></Blogs>
-     <h1 className="bg-sky-900 text-white p-40 text-5xl">This is test tailwind css</h1>
+      <div className="md:flex gap-10 justify-center my-10">
+        <Blogs></Blogs>
+        <Bookmarks></Bookmarks>
+      </div>
     </>
   )
 }

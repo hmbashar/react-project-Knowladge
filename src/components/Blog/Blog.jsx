@@ -1,7 +1,7 @@
+import PropTypes from 'prop-types'; 
 
+const Blog = ({ blog }) => {
 
-const Blog = ({blog}) => {
-    
     return (
         <div>
             <div className="single-post-area">
@@ -28,7 +28,7 @@ const Blog = ({blog}) => {
                     <h2>{blog.title}</h2>
                 </div>
                 <div className="single-post-tag">
-                    
+
                 </div>
                 <div className="single-post-read-btn">
                     <a href="javascript.void()">Make as Read</a>
@@ -37,5 +37,9 @@ const Blog = ({blog}) => {
         </div>
     );
 };
+
+Blog.propTypes = {
+    blog:PropTypes.object.isRequired
+}
 
 export default Blog;
