@@ -23,6 +23,6 @@ const Bookmarks = ({ bookmarks, spendTime }) => {
 };
 Bookmarks.propTypes = {
     bookmarks: PropTypes.array,
-   // spendTime: PropTypes.func
+    spendTime: PropTypes.number
 }
 export default Bookmarks;
