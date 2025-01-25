@@ -4,7 +4,7 @@ import ReadTime from '../ReadTime/ReadTime';
 
 const Bookmarks = ({ bookmarks, spendTime }) => {
     return (
-        <div>
+        <div className="sticky top-5">
             <ReadTime spendTime={spendTime}></ReadTime>
             <h2 className="text-2xl">Bookmarks: {bookmarks.length}</h2>
 

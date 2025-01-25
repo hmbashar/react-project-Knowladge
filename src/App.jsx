@@ -22,6 +22,10 @@ function App() {
   const handelSpendTime = (time) => {
     const newTime = spendTime + time.reading_time;
     setSpendTime(newTime);
+
+    const reamainingBookmarks = bookmarks.filter(bookmark => bookmark.id !== time.id);
+
+    setBookmarks(reamainingBookmarks);
   }
 
   return (
