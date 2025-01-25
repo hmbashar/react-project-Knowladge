@@ -2,10 +2,10 @@ import PropTypes from 'prop-types';
 import Bookmark from '../Bookmark/Bookmark';
 import ReadTime from '../ReadTime/ReadTime';
 
-const Bookmarks = ({ bookmarks }) => {
+const Bookmarks = ({ bookmarks, spendTime }) => {
     return (
         <div>
-            <ReadTime></ReadTime>
+            <ReadTime spendTime={spendTime}></ReadTime>
             <h2 className="text-2xl">Bookmarks: {bookmarks.length}</h2>
 
             {
@@ -23,5 +23,6 @@ const Bookmarks = ({ bookmarks }) => {
 };
 Bookmarks.propTypes = {
     bookmarks: PropTypes.array,
+   // spendTime: PropTypes.func
 }
 export default Bookmarks;
