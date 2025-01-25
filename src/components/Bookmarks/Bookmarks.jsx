@@ -1,9 +1,11 @@
 import PropTypes from 'prop-types';
 import Bookmark from '../Bookmark/Bookmark';
+import ReadTime from '../ReadTime/ReadTime';
 
 const Bookmarks = ({ bookmarks }) => {
     return (
         <div>
+            <ReadTime></ReadTime>
             <h2 className="text-2xl">Bookmarks: {bookmarks.length}</h2>
 
             {
@@ -15,7 +17,7 @@ const Bookmarks = ({ bookmarks }) => {
                     }
                 </div>
             }
-            
+
         </div>
     );
 };

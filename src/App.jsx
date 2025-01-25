@@ -7,17 +7,23 @@ function App() {
 
   const [bookmarks, setBookmarks] = useState([]);
 
+  const [spendTime, setSpendTime] = useState([]);
+
 
   const handelAddToBookmark = blog => {
     const newBookmarks = [...bookmarks, blog]
     setBookmarks(newBookmarks);
   }
 
+  const handelSpendTime = time => {
+    console.log(time);
+  }
+
   return (
     <>
       <Header></Header>
       <div className="md:flex gap-10 justify-center my-10 max-w-7xl mx-auto">
-        <Blogs handelAddToBookmark={handelAddToBookmark}></Blogs>
+        <Blogs handelAddToBookmark={handelAddToBookmark} handelSpendTime={handelSpendTime}></Blogs>
         <div className="bookmarks md:w-1/3">
           <Bookmarks bookmarks={bookmarks}></Bookmarks>
         </div>        

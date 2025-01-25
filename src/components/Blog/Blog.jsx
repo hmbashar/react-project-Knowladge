@@ -1,8 +1,8 @@
-import PropTypes from 'prop-types'; 
+import PropTypes from 'prop-types';
 import { IoBookmarksOutline } from "react-icons/io5";
 
 
-const Blog = ({ blog, handelAddToBookmark }) => {
+const Blog = ({ blog, handelAddToBookmark, handelSpendTime }) => {
 
     return (
         <div className="mb-5">
@@ -36,7 +36,12 @@ const Blog = ({ blog, handelAddToBookmark }) => {
                     }
                 </div>
                 <div className="single-post-read-btn">
-                    <a href="javascript.void()" className="text-blue-700 hover:text-green-700">Make as Read</a>
+                    <a href="#" className="text-blue-700 hover:text-green-700"
+                        onClick={(e) => {
+                            e.preventDefault();
+                            handelSpendTime(blog);
+                        }}
+                    >Make as Read</a>
                 </div>
             </div>
         </div>
@@ -44,8 +49,9 @@ const Blog = ({ blog, handelAddToBookmark }) => {
 };
 
 Blog.propTypes = {
-    blog:PropTypes.object.isRequired,
-    handelAddToBookmark:PropTypes.func
+    blog: PropTypes.object.isRequired,
+    handelAddToBookmark: PropTypes.func,
+    handelSpendTime: PropTypes.func
 }
 
 export default Blog;
