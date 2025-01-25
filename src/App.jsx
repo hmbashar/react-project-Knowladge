@@ -15,7 +15,7 @@ function App() {
       const newBookmarks = [...bookmarks, blog]
       setBookmarks(newBookmarks);
     }else {
-      alert('This Post alread added')
+      alert('This Post already added')
     }
   }
 
