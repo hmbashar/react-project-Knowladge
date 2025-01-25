@@ -18,7 +18,9 @@ function App() {
       <Header></Header>
       <div className="md:flex gap-10 justify-center my-10 max-w-7xl mx-auto">
         <Blogs handelAddToBookmark={handelAddToBookmark}></Blogs>
-        <Bookmarks bookmarks={bookmarks}></Bookmarks>
+        <div className="bookmarks md:w-1/3">
+          <Bookmarks bookmarks={bookmarks}></Bookmarks>
+        </div>        
       </div>
     </>
   )

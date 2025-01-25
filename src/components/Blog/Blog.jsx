@@ -6,7 +6,7 @@ const Blog = ({ blog, handelAddToBookmark }) => {
 
     return (
         <div className="mb-5">
-            <div className="single-post-area md:flex md:flex-col justify-start gap-10">
+            <div className="single-post-area md:flex md:flex-col justify-start gap-5">
 
                 <div className="single-post-thumb">
                     <img className="w-full" src={blog?.cover} alt={blog?.title} />
@@ -36,7 +36,7 @@ const Blog = ({ blog, handelAddToBookmark }) => {
                     }
                 </div>
                 <div className="single-post-read-btn">
-                    <a href="javascript.void()">Make as Read</a>
+                    <a href="javascript.void()" className="text-blue-700 hover:text-green-700">Make as Read</a>
                 </div>
             </div>
         </div>
