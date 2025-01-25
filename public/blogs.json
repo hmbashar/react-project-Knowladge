@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "cover": "https://dummyimage.com/845x450/ccc/000&text=Web+Development",
+    "title": "Mastering the Art of Web Development",
+    "author": "Jane Doe",
+    "author_img": "https://dummyimage.com/100x100/ccc/000&text=Author",
+    "posted_date": "2025-01-01",
+    "reading_time": 5,
+    "hashtags": ["#WebDevelopment", "#Programming", "#JavaScript"]
+  },
+  {
+    "id": 2,
+    "cover": "https://dummyimage.com/845x450/ccc/000&text=AI+Technology",
+    "title": "Exploring the World of AI",
+    "author": "John Smith",
+    "author_img": "https://dummyimage.com/100x100/ccc/000&text=Author",
+    "posted_date": "2025-01-05",
+    "reading_time": 7,
+    "hashtags": ["#AI", "#MachineLearning", "#FutureTech"]
+  },
+  {
+    "id": 3,
+    "cover": "https://dummyimage.com/845x450/ccc/000&text=UI+UX+Design",
+    "title": "10 Tips for Better UI/UX Design",
+    "author": "Emily Brown",
+    "author_img": "https://dummyimage.com/100x100/ccc/000&text=Author",
+    "posted_date": "2025-01-10",
+    "reading_time": 4,
+    "hashtags": ["#UIUX", "#Design", "#Creativity"]
+  },
+  {
+    "id": 4,
+    "cover": "https://dummyimage.com/845x450/ccc/000&text=Cloud+Computing",
+    "title": "The Future of Cloud Computing",
+    "author": "Michael Johnson",
+    "author_img": "https://dummyimage.com/100x100/ccc/000&text=Author",
+    "posted_date": "2025-01-12",
+    "reading_time": 6,
+    "hashtags": ["#CloudComputing", "#Technology", "#Innovation"]
+  },
+  {
+    "id": 5,
+    "cover": "https://dummyimage.com/845x450/ccc/000&text=Learn+Python",
+    "title": "Getting Started with Python",
+    "author": "Alice Green",
+    "author_img": "https://dummyimage.com/100x100/ccc/000&text=Author",
+    "posted_date": "2025-01-15",
+    "reading_time": 8,
+    "hashtags": ["#Python", "#Programming", "#Beginner"]
+  },
+  {
+    "id": 6,
+    "cover": "https://dummyimage.com/845x450/ccc/000&text=SEO+Trends",
+    "title": "SEO Best Practices for 2025",
+    "author": "Robert Lee",
+    "author_img": "https://dummyimage.com/100x100/ccc/000&text=Author",
+    "posted_date": "2025-01-18",
+    "reading_time": 3,
+    "hashtags": ["#SEO", "#Marketing", "#Trends"]
+  },
+  {
+    "id": 7,
+    "cover": "https://dummyimage.com/845x450/ccc/000&text=Blockchain",
+    "title": "Understanding Blockchain Technology",
+    "author": "Sophia Martinez",
+    "author_img": "https://dummyimage.com/100x100/ccc/000&text=Author",
+    "posted_date": "2025-01-20",
+    "reading_time": 9,
+    "hashtags": ["#Blockchain", "#Cryptocurrency", "#Decentralization"]
+  },
+  {
+    "id": 8,
+    "cover": "https://dummyimage.com/845x450/ccc/000&text=Graphic+Design",
+    "title": "Top 10 Tools for Graphic Designers",
+    "author": "Oliver Wilson",
+    "author_img": "https://dummyimage.com/100x100/ccc/000&text=Author",
+    "posted_date": "2025-01-22",
+    "reading_time": 5,
+    "hashtags": ["#GraphicDesign", "#Tools", "#Creativity"]
+  },
+  {
+    "id": 9,
+    "cover": "https://dummyimage.com/845x450/ccc/000&text=Digital+Leadership",
+    "title": "Effective Leadership in the Digital Age",
+    "author": "Emma Davis",
+    "author_img": "https://dummyimage.com/100x100/ccc/000&text=Author",
+    "posted_date": "2025-01-23",
+    "reading_time": 6,
+    "hashtags": ["#Leadership", "#DigitalTransformation", "#Growth"]
+  },
+  {
+    "id": 10,
+    "cover": "https://dummyimage.com/845x450/ccc/000&text=WordPress+Guide",
+    "title": "Beginner's Guide to WordPress Development",
+    "author": "Liam Harris",
+    "author_img": "https://dummyimage.com/100x100/ccc/000&text=Author",
+    "posted_date": "2025-01-24",
+    "reading_time": 7,
+    "hashtags": ["#WordPress", "#WebDevelopment", "#Tutorial"]
+  },
+  {
+    "id": 11,
+    "cover": "https://dummyimage.com/845x450/ccc/000&text=Cybersecurity",
+    "title": "How to Stay Safe Online",
+    "author": "Noah Wright",
+    "author_img": "https://dummyimage.com/100x100/ccc/000&text=Author",
+    "posted_date": "2025-01-24",
+    "reading_time": 4,
+    "hashtags": ["#Cybersecurity", "#OnlineSafety", "#Tech"]
+  },
+  {
+    "id": 12,
+    "cover": "https://dummyimage.com/845x450/ccc/000&text=E-Commerce",
+    "title": "E-Commerce Trends in 2025",
+    "author": "Ella Robinson",
+    "author_img": "https://dummyimage.com/100x100/ccc/000&text=Author",
+    "posted_date": "2025-01-23",
+    "reading_time": 8,
+    "hashtags": ["#ECommerce", "#OnlineBusiness", "#Trends"]
+  },
+  {
+    "id": 13,
+    "cover": "https://dummyimage.com/845x450/ccc/000&text=Data+Science",
+    "title": "Getting Started with Data Science",
+    "author": "Mason Evans",
+    "author_img": "https://dummyimage.com/100x100/ccc/000&text=Author",
+    "posted_date": "2025-01-21",
+    "reading_time": 10,
+    "hashtags": ["#DataScience", "#Analytics", "#BigData"]
+  },
+  {
+    "id": 14,
+    "cover": "https://dummyimage.com/845x450/ccc/000&text=Mobile+Apps",
+    "title": "Building Your First Mobile App",
+    "author": "Ava Walker",
+    "author_img": "https://dummyimage.com/100x100/ccc/000&text=Author",
+    "posted_date": "2025-01-19",
+    "reading_time": 6,
+    "hashtags": ["#MobileApps", "#AppDevelopment", "#Programming"]
+  },
+  {
+    "id": 15,
+    "cover": "https://dummyimage.com/845x450/ccc/000&text=Photography",
+    "title": "10 Photography Tips for Beginners",
+    "author": "Logan Hall",
+    "author_img": "https://dummyimage.com/100x100/ccc/000&text=Author",
+    "posted_date": "2025-01-16",
+    "reading_time": 3,
+    "hashtags": ["#Photography", "#Tips", "#Creativity"]
+  },
+  {
+    "id": 16,
+    "cover": "https://dummyimage.com/845x450/ccc/000&text=Content+Writing",
+    "title": "How to Write Engaging Content",
+    "author": "Harper King",
+    "author_img": "https://dummyimage.com/100x100/ccc/000&text=Author",
+    "posted_date": "2025-01-14",
+    "reading_time": 5,
+    "hashtags": ["#ContentWriting", "#Marketing", "#SEO"]
+  },
+  {
+    "id": 17,
+    "cover": "https://dummyimage.com/845x450/ccc/000&text=Gaming",
+    "title": "The Evolution of Gaming Technology",
+    "author": "Ethan Scott",
+    "author_img": "https://dummyimage.com/100x100/ccc/000&text=Author",
+    "posted_date": "2025-01-13",
+    "reading_time": 9,
+    "hashtags": ["#Gaming", "#Technology", "#Innovation"]
+  },
+  {
+    "id": 18,
+    "cover": "https://dummyimage.com/845x450/ccc/000&text=Digital+Marketing",
+    "title": "Digital Marketing Strategies",
+    "author": "Amelia Adams",
+    "author_img": "https://dummyimage.com/100x100/ccc/000&text=Author",
+    "posted_date": "2025-01-11",
+    "reading_time": 8,
+    "hashtags": ["#DigitalMarketing", "#SEO", "#SocialMedia"]
+  },
+  {
+    "id": 19,
+    "cover": "https://dummyimage.com/845x450/ccc/000&text=Health+Tech",
+    "title": "Innovations in Health Technology",
+    "author": "Lucas Mitchell",
+    "author_img": "https://dummyimage.com/100x100/ccc/000&text=Author",
+    "posted_date": "2025-01-09",
+    "reading_time": 7,
+    "hashtags": ["#HealthTech", "#Innovation", "#Wellness"]
+  },
+  {
+    "id": 20,
+    "cover": "https://dummyimage.com/845x450/ccc/000&text=Startup+Guide",
+    "title": "How to Launch a Startup",
+    "author": "Isabella Baker",
+    "author_img": "https://dummyimage.com/100x100/ccc/000&text=Author",
+    "posted_date": "2025-01-08",
+    "reading_time": 6,
+    "hashtags": ["#Startups", "#Entrepreneurship", "#Business"]
+  }
+]
